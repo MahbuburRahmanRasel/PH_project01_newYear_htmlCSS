@@ -229,6 +229,7 @@ footer button {
     font-weight: 700;
     font-size: 20px;
 }
+
 .myday h2{
     text-align: center;
     font-size: 40px;
@@ -237,7 +238,7 @@ footer button {
 
 }
 .myday-items{
-    background-color: #f15d22c2;
+    background-image: url(./images/gradient1.png),url(./images/banner/banner3.png);
     /* color: whi; */
     margin: 20px 80px;
     width: 1141px;
@@ -245,6 +246,7 @@ footer button {
     display: flex;
     justify-content: space-around;
     row-gap: 20px;
+    margin-bottom: 80px;
 }
 
 .myday-items details {
