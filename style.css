@@ -184,8 +184,7 @@ footer textarea {
     color:white;
     border-color: white;
     margin-top: 20px;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 .footer-all{
     display: flex;
@@ -230,4 +229,30 @@ footer button {
     font-weight: 700;
     font-size: 20px;
 }
+.myday h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
 
+}
+.myday-items{
+    background-color: #f15d22c2;
+    /* color: whi; */
+    margin: 20px 80px;
+    width: 1141px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.myday-items details {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+}
+.myday-items >details >summary{
+    font-size: 20px;
+    font-weight: bold;
+}
