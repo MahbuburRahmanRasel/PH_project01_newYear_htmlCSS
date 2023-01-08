@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: Work Sans;
 }
 
 header{
@@ -10,7 +11,7 @@ header{
     background-image: url(/images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     margin: 5px;
 }
@@ -19,7 +20,7 @@ header{
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: right;
 }
 .banner-title{
@@ -48,4 +49,85 @@ button{
     border-radius: 5px;
     cursor: pointer;
     margin-left: 377px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.previous-year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.previous-year-img {
+    width: 570px;
+    height: 723.33px;
+    
+}
+
+.previous-year-text{
+    width: 416px;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.previous-year-text h2{
+    width: 288px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.previous-year-text p {
+    margin-bottom: 10px;
+}
+.previous-year-checkbox li {
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 5px;
+}
+.previous-year-checkbox span{
+    color: #16D887;
+}
+                                            /* MyPlan */
+
+
+.my-plan{
+    margin: 80px;
+    width: 1141px;
+    height: 299.96px;
+}
+.my-plan h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+} 
+
+.my-plan-items{
+    display: flex;
+    justify-content: space-around
+
+
+}
+
+/* .my-plan-items div{
+    display: flex;
+    flex-direction: column;
+} */
+
+.my-plan-items img{
+    width: 92.96px;
+    height: 92.96px;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+}
+.my-plan-items h4{
+    text-align: center;
+}
+.my-plan-items p{
+    text-align: center;
 }
