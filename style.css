@@ -136,7 +136,7 @@ header button{
     margin: 80px;
     width: 1141px;
     height: 299.96px;
-    background-image: url("/images/gradient2.png"),url("/images/watch.png");
+    background-image: url("./images/gradient2.png"),url("./images/watch.png");
     /* display: flex;
     justify-content: space-around; */
 }
